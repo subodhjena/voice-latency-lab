@@ -151,4 +151,4 @@ For the next change, I want one specific explanation: the turn was committed lat
 
 ---
 
-Article snapshot prepared 17 October 2026. The [website article](https://subodhjena.com/blog/a-voice-assistant-has-more-than-one-latency-problem) is canonical; code and fixtures are maintained in this repository. Archive spacing was selected by the author; the examples were prepared and run on 17 October 2026.
+Article snapshot prepared 17 October 2026. The [website article](https://subodhjena.com/blog/a-voice-assistant-has-more-than-one-latency-problem) is canonical; code and fixtures are maintained in this repository. Examples prepared and run on 17 October 2026.

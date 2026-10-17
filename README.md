@@ -2,7 +2,7 @@
 
 Analyze synthetic voice event timelines without confusing model startup, turn commitment, useful playback, and interruption. Includes an interval jitter-buffer calculation.
 
-This is the runnable companion to [the article](https://subodhjena.com/blog/a-voice-assistant-has-more-than-one-latency-problem). Website MDX is the canonical article; [article.md](article.md) is a deliberate GitHub-readable snapshot. Code and fixtures are canonical here. Research and the examples were prepared on 17 October 2026; the website uses the author-approved archive spacing.
+This is the runnable companion to [the article](https://subodhjena.com/blog/a-voice-assistant-has-more-than-one-latency-problem). Website MDX is the canonical article; [article.md](article.md) is a deliberate GitHub-readable snapshot. Code and fixtures are canonical here. Research and examples updated on 17 October 2026.
 
 ## Reproduce
 
