@@ -1,0 +1,9 @@
+flowchart TD
+    A[User speech ends] --> B[Commit the turn]
+    B --> C[Prepare answer or call tool]
+    C --> D[Stream speakable text]
+    D --> E[Generate audio chunks]
+    E --> F[Transport and client queue]
+    F --> G[Playback starts]
+    H[User starts speaking again] --> I[Cancel old response and stop playback]
+    G -. interruption .-> H

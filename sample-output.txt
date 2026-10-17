@@ -1,0 +1,28 @@
+Synthetic timelines, milliseconds. Not a provider benchmark.
+
+baseline
+  endpoint_ms: 250
+  llm_ttft_ms: 180
+  tts_first_audio_ms: 110
+  client_queue_ms: 60
+  first_playback_ms: 680
+  useful_playback_ms: 680
+  stop_ms: 90
+
+late_endpoint
+  endpoint_ms: 700
+  llm_ttft_ms: 180
+  tts_first_audio_ms: 110
+  client_queue_ms: 60
+  first_playback_ms: 1130
+  useful_playback_ms: 1130
+  stop_ms: 90
+
+buffer_and_filler
+  endpoint_ms: 250
+  llm_ttft_ms: 180
+  tts_first_audio_ms: 110
+  client_queue_ms: 430
+  first_playback_ms: 1050
+  useful_playback_ms: 1700
+  stop_ms: 350

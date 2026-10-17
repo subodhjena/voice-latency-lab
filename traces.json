@@ -1,0 +1,185 @@
+[
+  {
+    "id": "baseline",
+    "synthetic": true,
+    "events": [
+      {
+        "name": "user_end",
+        "ms": 0,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "turn_committed",
+        "ms": 250,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "llm_start",
+        "ms": 270,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "first_token",
+        "ms": 450,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "tts_text_ready",
+        "ms": 490,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "tts_first_audio",
+        "ms": 600,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "audio_received",
+        "ms": 620,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "playback_started",
+        "ms": 680,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "useful_playback",
+        "ms": 680,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "barge_in",
+        "ms": 2100,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "playback_stopped",
+        "ms": 2190,
+        "clock": "synthetic-normalized"
+      }
+    ]
+  },
+  {
+    "id": "late_endpoint",
+    "synthetic": true,
+    "events": [
+      {
+        "name": "user_end",
+        "ms": 0,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "turn_committed",
+        "ms": 700,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "llm_start",
+        "ms": 720,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "first_token",
+        "ms": 900,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "tts_text_ready",
+        "ms": 940,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "tts_first_audio",
+        "ms": 1050,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "audio_received",
+        "ms": 1070,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "playback_started",
+        "ms": 1130,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "useful_playback",
+        "ms": 1130,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "barge_in",
+        "ms": 2100,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "playback_stopped",
+        "ms": 2190,
+        "clock": "synthetic-normalized"
+      }
+    ]
+  },
+  {
+    "id": "buffer_and_filler",
+    "synthetic": true,
+    "events": [
+      {
+        "name": "user_end",
+        "ms": 0,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "turn_committed",
+        "ms": 250,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "llm_start",
+        "ms": 270,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "first_token",
+        "ms": 450,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "tts_text_ready",
+        "ms": 490,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "tts_first_audio",
+        "ms": 600,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "audio_received",
+        "ms": 620,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "playback_started",
+        "ms": 1050,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "useful_playback",
+        "ms": 1700,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "barge_in",
+        "ms": 2100,
+        "clock": "synthetic-normalized"
+      },
+      {
+        "name": "playback_stopped",
+        "ms": 2450,
+        "clock": "synthetic-normalized"
+      }
+    ]
+  }
+]
